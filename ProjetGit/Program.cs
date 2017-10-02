@@ -11,8 +11,9 @@ namespace ProjetGit
         static void Main(string[] args)
         {
 
-            Personne obj1 = new Personne("Sarah","Kinsley",29);
-            Personne obj2 = new Personne("Buzz", "Aldrin", 87);
+            Personne obj1 = new Personne();
+            Personne obj2 = new Personne(87);
+
             Console.WriteLine(obj1 + "\n");
             Console.WriteLine(obj2 + "\n");
 

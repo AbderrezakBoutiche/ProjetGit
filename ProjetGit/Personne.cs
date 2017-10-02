@@ -20,12 +20,19 @@ namespace ProjetGit
         //---------------------------------------------------  Les Constructeurs  --------------------------------------------
 
         #region Les Constructeurs
-        public Personne(string firstName, string lastName, int age)
+
+        public Personne()
         {
-            this.FirstName = firstName;
-            this.LastName = lastName;
+            this.LastName = "Boutiche";
+            this.FirstName = "Abderrezak";
+            this.Age = 29;
+        }
+        public Personne( int age): this()
+        {
             this.Age = age;
         }
+
+        
         #endregion
 
         //-----------------------------------------------------  Les Méthodes  ----------------------------------------------
