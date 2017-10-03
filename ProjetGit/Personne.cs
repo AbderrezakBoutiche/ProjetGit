@@ -32,7 +32,20 @@ namespace ProjetGit
             this.Age = age;
         }
 
-        
+        public Personne(string firstName, string lastName, int age) : this()
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Age = age;
+        }
+
+        public Personne(string firstName, string lastName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+        }
+
+
         #endregion
 
         //-----------------------------------------------------  Les Méthodes  ----------------------------------------------
